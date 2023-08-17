@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: blue;
+}
+
+form {
+    border: 1px solid black;
+    margin: 100px auto;
+    font-weight: bold;
+    width: 65%;
+    text-align: left;
+    background-color: white;
+}
+
+.personal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px 5px;
+}
+
+.personal input {
+    margin: 19px 0;
+    padding: 10px 20px;
+}
+
+.identity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px 5px;
+}
+
+.identity input {
+    margin: 19px 0;
+    padding: 10px 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+form input[type="submit"] {
+    width: 25%;
+    color: white;
+    background-color: blue;
+    margin: 15px 25px;
+    border: 0;
+    cursor: pointer;
+}
+
+form input:hover[type="submit"] {
+    background-color: rgba(3, 3, 210, 0.853);
+}
+
+p {
+    margin: 20px 25px;
+    color: grey;
+    font-size: 19px;
+}
